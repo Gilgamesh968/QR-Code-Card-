@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    object-fit: cover;
+    background-color: blue;
+    padding: 2rem;
+    margin-bottom: 60px;
+}
+
+#container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    height: 100vh;
+}
+
+#card{
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    border: 1p solid rgb(194, 210, 245);
+    height: 80vh;
+}
